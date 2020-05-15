@@ -32,7 +32,7 @@ $(document).ready(function() {
         })
     });
     $('#search2').on('click', function() {
-        if ($(".search-text").attr("data-site") == "google") { window.location = 'https://search.icecliffs.cn/search?q=' + urlEncode($('#kw').val()); } else { window.location = 'https://search.icecliffs.cn/search?q=' + urlEncode($('#kw').val()); }
+        if ($(".search-text").attr("data-site") == "google") { window.location = 'http://search.icecliffs.cn/search?q=' + urlEncode($('#kw').val()); } else { window.location = 'http://search.icecliffs.cn/search?q=' + urlEncode($('#kw').val()); }
     });
     var $container = $('.container');
     $container.on('click', '#go', function() {
